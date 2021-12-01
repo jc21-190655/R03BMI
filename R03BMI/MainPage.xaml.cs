@@ -38,3 +38,6 @@ namespace R03BMI
                 Console.WriteLine(ex);
                 result.text = "!!!";
             }
+        }
+    }
+}
