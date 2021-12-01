@@ -18,12 +18,12 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-           var height = heighi.Text;
-           var weight = weighi.Text;
+           var height = heighit.Text;
+           var weight = weighit.Text;
            try
             {
                 double h = double.Parse(height);
-                int w = int.Parse(weight);
+                int w　 = int.Parse(weight);
                 if (h > 10)
                 {
                     h = h / 100;
