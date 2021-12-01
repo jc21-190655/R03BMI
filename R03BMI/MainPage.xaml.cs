@@ -18,8 +18,8 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-           var height = height.Text;
-           var weight = weight.Text;
+           var height = heighi.Text;
+           var weight = weighi.Text;
            try
             {
                 double h = double.Parse(height);
@@ -36,7 +36,7 @@ namespace R03BMI
             catch (FormatException ex)
             {
                 Console.WriteLine(ex);
-                result.text = "!!!";
+                result.Text = "!!!";
             }
         }
     }
