@@ -18,8 +18,8 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            var height = height.Text;
-            var weight = weight.Text;
+            var height = heighit.Text;
+            var weight = weighit.Text;
            
             try
             {
